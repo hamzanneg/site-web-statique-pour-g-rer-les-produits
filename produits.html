@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produits</title>
+    <style>
+        body {
+            margin: 0;
+            background-image: url(https://imgs.search.brave.com/bOBtNreQfLTl2__7XSYzRNAgpwcwlaXSDr4ZEbnom08/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvdGh1bWJu/YWlsL3BsYWluLWxp/Z2h0LWJsdWUtYmFj/a2dyb3VuZC0yNTYw/LXgtMTYwMC11cW0y/ZDdhcjVvZ3QzNmQ3/LmpwZw);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: 'lato',sans-serif;
+
+        }
+       nav {
+            padding-right: 30px;
+            top: 10px;
+        }
+        header{
+            display:flex;
+            justify-content: flex-end;
+            gap: 20px;
+            top:10px;
+            background-color: #EAF3FB;
+            padding: 20px 0 10px 0;
+            position: fixed;
+            top:0;
+            left:0;
+            width: 100%;
+            z-index: 1000;
+            height: 32px;
+            border: lightgray 2px solid;
+            box-shadow: 0 0 5px 0;
+        }
+        header label {
+            position:relative;
+            right: 65%;
+            font-family: 'Yellowtail',cursive;
+            font-style: italic;
+        }
+        header a {
+
+           padding: 10px;
+           border-radius: 7px 10px;
+           text-decoration: none;
+           border: #163A5F solid 2px;
+
+            
+        }
+        header a:hover {
+            background-color: #163A5F;
+            color: white;
+            border: solid #163A5F;
+            font-size: large;
+        }
+        .HP {
+            text-align: center;
+            font-family: 'lato',sans-serif;
+            color: #163A5F;
+        }
+        footer {
+            text-align: center;
+            background-color:#163A5F;
+            padding: 10px;
+            max-width: 100%;
+            font-family:'lato'sans-serif;
+            color: white;
+        }
+        .images {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            height: 20%;
+            font-family: Arial, Helvetica, sans-serif;
+            position: relative;
+            right: 5px;
+        }
+        .images img {
+            height: 400px;
+            width: 350px;
+            border-radius: 27px 39px;
+            
+        }
+        .images .type1 {
+            border: solid;
+            border-radius: 29px 41px;
+            width: 350px;
+            box-shadow: 5px 5px 5px ;
+        }
+        .images .type2 {
+            border: solid;
+            border-radius: 29px 41px;
+            width: 350px;
+            box-shadow: 5px 5px 5px ;
+        }
+        .images .type3 {
+            border: solid;
+            border-radius: 29px 41px;
+            width: 350px;
+            box-shadow: 5px 5px 5px ;
+        }
+        .images p {
+            padding: 10px;
+        }
+        .nav2 {
+            background-color: #163A5F;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            
+        }
+        .nav2 a {
+            color: #163A5F;
+            background-color: white;
+            padding: 10px;
+            border-radius: 7px 10px;
+            border: solid 2px #163A5F;
+            text-decoration: none;
+        }
+        .nav2 a:hover {
+            color: white;
+            background-color: #163A5F;
+            border: white solid 2px;
+            
+        }
+        .table {
+            border-collapse: collapse;
+            border: 2px solid;
+            width: 87%;
+            margin: 20px auto;
+            padding: 10px;
+            text-align: center;   
+            font-size: 35px;  
+
+        }
+        .table th, .table td {
+            border: 2px solid;
+            padding: 10px;
+        }
+        .table0 {
+            background-color: #163A5F;
+        }
+        .table1 {
+            background-color: #E8F0F7;
+        }
+        .table2 {
+            background-color: #D9EAF5;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <label>Boutique AL AMAL</label>
+    <nav>
+        <a href="index.html">Acctueil</a>
+        <a href="produits.html">Produits</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+<br><br>
+<br><br>
+ <h1 class="HP"> Notre catalogue:</h1>
+ <p class="HP">Quatre catégories pour composer votre routine, du nettoyage à la protection solaire. Cliquez sur une catégorie pour y accéder directement.</p>
+ <nav class="nav2">
+    <a href="#Gels_nettoyants">Gels nettoyants</a>
+    <a href="#Sérums">Sérums</a>
+    <a href="#Toners">Toners</a>
+    <a href="#Crèmes_et_protections_solaires">Crèmes et protections solaires</a>
+ </nav>
+ <br><br>
+ <h1 class="HP" id="Gels_nettoyants">Gels nettoyants:</h1>
+ <p class="HP">Première étape de toute routine : un gel doux élimine impuretés et excès de sébum sans agresser la peau.</p>
+ <br>
+ <div class="images">
+        <div class="type1">
+        <img src="https://imgs.search.brave.com/GNh5auXm12NIzDx07SXw7oGJsTRQV97PKM9J7-DuNsM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bnVvb2JveC5jb20v/Y2RuL3Nob3AvcHJv/ZHVjdHMvZ2VsZWUt/bmV0dG95YW50ZS1w/dXJpZmlhbnRlLWNl/bnRpZm9saWFfMzUw/eC5qcGc_dj0xNjE0/MTYwMjc3">
+        <p><strong>Nom:</strong> Gel Nettoyant Aloe Douceur</p>
+        <p><strong>Descreption:</strong> Un gel moussant sans savon qui nettoie sans dessécher.</p>
+        
+        <p><strong>Prix:</strong> <del>109 DH</del>   89 DH</p>
+        </div>
+        <div class="type2">
+        <img src="https://media.cosmebio.org/adherents/816/produit-21645-gel-nettoyant-purifiant-the-vert.jpg.400x400_q85_background-%23ffffff.jpg">
+        
+        <p><strong>Nom:</strong> Gel Purifiant Thé Vert</p>
+        <p><strong>Descreption:</strong> Nettoie et matifie les peaux mixtes à grasses.</p>
+        
+        <p><strong>Prix:</strong> 99 DH</p>
+        </div>
+    
+    </div>
+<br><br>
+<h1 class="HP" id="Sérums">Sérums:</h1>
+<p class="HP"> Des formules concentrées en actifs pour répondre à un besoin précis : éclat, hydratation ou taches.</p>
+<br>
+<div class="images">
+        <div class="type1">
+        <img src="https://cdn.aroma-zone.com/image/upload/f_auto,q_auto,w_1280,c_fit/v1/ctcdn/e5f608cf-85e6-4db5-8d00-81b1960857bb/Carrousel-FT_Serum-a-4_UAildg.jpg">
+        <p><strong>Nom:</strong> Sérum concentré d'Acide hyaluronique</p>
+        <p><strong>Descreption:</strong> Hydratation intense et effet repulpant dès la première semaine.</p>
+        <p><strong>Prix:</strong> 149 DH</p>
+        </div>
+        <div class="type2">
+        <img src="https://imgs.search.brave.com/0ugfJelIJI4WdCvfthXA8O7rQ9T0HX21io3tkXKDDy8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZW5kcm8tY29zbWV0/aXF1ZXMuY29tL2Nk/bi9zaG9wL2ZpbGVz/L3NlcnVtLXB1cmlm/aWFudC1lbmRyby1j/b3NtZXRpcXVlcy1z/ZXJ1bXMtdmlzYWdl/LTcxMDQ3NjMud2Vi/cD92PTE3NzAwNDYx/NTUmd2lkdGg9MjA0/OA">
+        <br>
+        <p><strong>Nom:</strong> Sérum Vitamine C Éclat</p>
+        <p><strong>Descreption:</strong> Un concentré antioxydant pour un teint plus lumineux.</p>
+        <p><strong>Prix:</strong> <del>169 DH</del> 149 DH</p>
+        </div>
+        
+    </div>
+<br><br>
+<h1  class="HP" id="Toners">Toners:</h1>
+<p class="HP">Après le nettoyage, le toner rééquilibre la peau et prépare l’application des soins suivants.</p>
+<br>
+<div class="images">
+        <div class="type1">
+        <img src="https://cocosolis.com/wp-content/uploads/product-rose-toner-slider-01.jpg">
+        <br>
+        <p><strong>Nom:</strong> Toner Apaisant à la Rose</p>
+        <p><strong>Descreption:</strong> Lotion sans alcool qui apaise, rafraîchit et prépare la peau aux soins.</p>
+        <p><strong>Prix:</strong> 79 DH</p>
+        </div>
+        <div class="type2">
+        <img src="https://truskin.com/cdn/shop/files/truskin-aha-bha-pha-liquid-exfoliant--1-aha-bha-pha-toner-hero-color_f68051ce-8736-46f5-9f8b-8a62fb685cd7.jpg?v=1788797122&width=1080">
+        <br>
+        <p><strong>Nom:</strong> Toner Exfoliant AHA/BHA</p>
+        <p><strong>Descreption:</strong> Affine le grain de peau et désobstrue les pores, à utiliser le soir.</p>
+        <p><strong>Prix:</strong> 109 DH</p>
+        </div>
+        
+    </div>
+    <br><br>
+
+<h1 class="HP" id="Crèmes_et_protections_solaires">Crèmes et protections solaires:</h1>
+<p class="HP">Hydrater, réparer et protéger : chaque matin, terminez votre routine par un indice SPF.</p>
+<br>
+<div class="images">
+        <div class="type1">
+        <img src="https://imgs.search.brave.com/enrjUIKQGfDlTDgauX4wsyACtJwqt9KnS6Tu_NtQtwE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jYWNo/ZXNob3BwaW5nLmNv/c21vcG9saXRhbi5m/ci9kYXRhL3Bob3Rv/L3c2ODBfY2kvc2Nv/cy82dC9sYS1yb2No/ZS1wb3NheS5qcGc">
+        <p><strong>Nom:</strong> Crème Hydratante Légère</p>
+        <p><strong>Descreption:</strong> Gel-crème non gras pour 24 h de confort, idéal sous le maquillage.</p>
+        <p><strong>Prix:</strong> 119 DH</p>
+        </div>
+        <div class="type2">
+        <img src="https://imgs.search.brave.com/5E9h3dblfW0cRfqBFri75w83uX8T8eMCqIK4WObfx3Q/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bWFkZW1vaXNlbGxl/LWJpby5jb20vMTAx/MzM4LXBkdF81NDAv/Y3JlbWUtZGUtbGEt/bnVpdC1yZXBhcmF0/cmljZS1vZGFjaXRl/LmpwZw">
+        <br>
+        <p><strong>Nom:</strong> Crème de Nuit Réparatrice</p>
+        <p><strong>Descreption:</strong> Riche en huile d’argan, elle nourrit et régénère la peau pendant le sommeil.</p>
+        <p><strong>Prix:</strong> <del>139 DH</del>  119 DH</p>
+        </div>
+        <div class="type3">
+        <img src="https://imgs.search.brave.com/IHbltGlBlFTdOevhzIyLZLSEWkuvdBiaNTg6QP_HHuU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jYWNo/ZS5jb3Ntb3BvbGl0/YW4uZnIvZGF0YS9w/aG90by93NjgwX2Mx/Ny82cy9sYWJvcmF0/b2lyZXMtZGUtYmlh/cnJpdHouanBn">
+        <br>
+        <p><strong>Nom:</strong> Crème Solaire SPF 50+ Invisible</p>
+        <p><strong>Descreption:</strong> Un fluide léger, sans traces blanches, pour tous les jours.</p>
+        <p><strong>Prix:</strong> 129 DH</p>
+        </div>
+    </div>
+<br><br>
+<h2 class="HP">Récapitulatif des produits:</h2>
+<table border="2" border-color="black" class="table">
+    <tr class="table0">
+    <th>Produits</th>
+    <th>Catégorie</th>
+    <th>Prix</th>
+    <th>Disponibilité</th>
+    </tr>
+    <tr class="table1">
+    <td>Gel Nettoyant Aloe Douceur</td>
+    <td>Gels nettoyants</td>
+    <td>89 DH</td>
+    <td>En stock</td>
+    </tr>
+    <tr class="table2">
+    <td>Gel Purifiant Thé Vert</td>
+    <td>Gels nettoyants</td>
+    <td>99 DH</td>
+    <td>En stock</td>
+    </tr>
+    <tr class="table1">
+    <td>Sérum Vitamine C Éclat</td>
+    <td>Sérums</td>
+    <td>149 DH</td>
+    <td>En stock</td>
+    </tr>
+    <tr class="table2">
+    <td>Sérum Acide Hyaluronique</td>
+    <td>Sérums</td>
+    <td>149 DH</td>
+    <td>Stock limité</td>
+    </tr>
+    <tr class="table1">
+    <td>Toner Apaisant à la Rose</td>
+    <td>Toners</td>
+    <td>79 DH</td>
+    <td>En stock</td>
+    </tr>
+    <tr class="table2">
+    <td>Toner Exfoliant AHA/BHA</td>
+    <td>Toners</td>
+    <td>109 DH</td>
+    <td>Rupture de stock</td>
+    </tr>
+    <tr class="table1">
+    <td>Crème Hydratante Légère</td>
+    <td>Crèmes et protections solaires</td>
+    <td>119 DH</td>
+    <td>En stock</td>
+    </tr>
+    <tr class="table2">
+    <td>Crème de Nuit Réparatrice</td>
+    <td>Crèmes et protections solaires</td>
+    <td>119 DH</td>
+    <td>En stock</td>
+    </tr>
+    <tr class="table1">
+    <td>Crème Solaire SPF 50+ Invisible</td>
+    <td>Crèmes et protections solaires</td>
+    <td>129 DH</td>
+    <td>En stock</td>
+    </tr>
+    
+</table>
+<br>
+<footer>
+        <p>© 2026 – HAMZA KHARKHOUCH – Groupe DEV101 – Boutique AL AMAL </p>
+    </footer>    
+</body>
+</html>

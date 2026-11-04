@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body {
+            margin: 0;
+             background-image: url(https://imgs.search.brave.com/bOBtNreQfLTl2__7XSYzRNAgpwcwlaXSDr4ZEbnom08/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvdGh1bWJu/YWlsL3BsYWluLWxp/Z2h0LWJsdWUtYmFj/a2dyb3VuZC0yNTYw/LXgtMTYwMC11cW0y/ZDdhcjVvZ3QzNmQ3/LmpwZw);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: 'lato',sans-serif;
+
+        }
+        nav {
+            padding-right: 30px;
+            top: 10px;
+        }
+        header{
+            display:flex;
+            justify-content: flex-end;
+            gap: 20px;
+            top:10px;
+            background-color: #EAF3FB;
+            padding: 20px 0 10px 0;
+            position: fixed;
+            top:0;
+            left:0;
+            width: 100%;
+            z-index: 1000;
+            height: 32px;
+            border: lightgray 2px solid;
+            box-shadow: 0 0 5px 0;
+        }
+        header label {
+            position:relative;
+            right: 65%;
+            font-family: 'Yellowtail',cursive;
+            font-style: italic;
+        }
+        header a {
+
+           padding: 10px;
+           border-radius: 7px 10px;
+           text-decoration: none;
+           border: #163A5F solid 2px;
+
+            
+        }
+        header a:hover {
+            background-color: #163A5F;
+            color: white;
+            border: solid #163A5F;
+            font-size: large;
+        }
+        .in1 {
+            height: 40px;
+            border: #163A5F solid 1px;
+            border-radius: 5px;
+            box-shadow: 0 0 0 0;
+            width: 480px;
+            background-color: rgb(230, 224, 224);
+            padding-left: 20px;
+        }
+        .ib1:focus {
+            border: 2px solid #163A5F;
+            outline: none;
+        }
+        .b2 {
+            background-color: lightgray;
+            cursor: pointer;
+            border-radius: 7px 10px;
+            border-color: #EAF3FB;
+            padding: 10px;
+        }
+        .b2:hover {
+            background-color: #163A5F;
+            color: white;
+            font-size: large;
+
+        }
+        .b1 {
+            background-color: #163A5F;
+            color: white;
+            cursor: pointer;
+            border-radius: 7px 10px;
+            border-color: #163A5F;
+            padding: 10px;
+            
+        }
+        .b1:hover {
+            background-color:#EAF3FB;
+            color: black;
+            font-size: large;
+        }
+        textarea {
+            width: 450px;
+            height: 200px;
+            border-radius: 28px 40px;
+            font-size: large;
+            padding: 20px;
+            background-color: rgb(230, 224, 224);
+
+        }
+        textarea:focus {
+            border: 2px solid #163A5F;
+            outline:none;
+        }
+        select {
+            cursor: pointer;
+            height: 40px;
+            border-radius: 5px;
+            box-shadow: 0 0 0 0;
+            width: 508px;
+            background-color: rgb(230, 224, 224);
+            padding: 10px;
+        }
+        .radio {
+            cursor: pointer;
+            background-color: #163A5F;        
+        }
+        .div2 {
+            background-color: white;
+            border: solid 2px;
+            border-radius: 14px 20px;
+            max-width: 500px;
+            margin: 0 20% 0 0;
+            box-shadow: 2px 2px 2px 0;
+            font-family:Arial, Helvetica, sans-serif;
+            padding: 20px 20px 20px 20px;
+            position: relative;
+            left: 50%;
+            bottom: 120px;
+            padding: 30px;
+            
+        }
+        .div1 {
+            position: relative;
+            left: 15%;
+            max-width: 350px;
+            font-size: large;
+        }
+        footer {
+            color: white;
+            text-align: center;
+            background-color:#163A5F;
+            padding: 10px;
+            max-width: 100%;
+            font-family:'lato'sans-serif;
+            margin:0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <label>Boutique AL AMAL</label>
+    <nav>
+        <a href="index.html">Acctueil</a>
+        <a href="produits.html">Produits</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+    <br><br><br><br>
+<div class="div1">
+<h1 style="color: #163A5F;">Contactez-Nous:</h1>
+<h2 style="color: #163A5F;">Nos coordonnées</h2>
+<p style="line-height: 2.;">Une question sur un produit, une commande ou le choix d’un soin ? Notre équipe vous répond sous 24/7!</p>
+<br>
+<label style="color: #163A5F;">E-mail:</label>
+<a href="contactalamalboutique@gmail.com">contactalamalboutique@gmail.com</a>
+<br><br>
+<label style="color: #163A5F;">Téléphone:</label>
+<a href="06 00 00 00 00">06 00 00 00 00</a>
+</div>
+<div class="div2">
+    <form>
+    <h1 style="color: #163A5F;">Écrivez-nous:</h1>
+    
+    <p> *champs obligatoires!</p>
+    
+    <p>Nom Complete:</p>
+    <input class="in1" type="text" placeholder="ex: hamza kharkhouch" required>
+    <br>
+    <p>Adresse E-mail:</p>
+    <input class="in1" type="email" placeholder="exemple@gmail.com" required>
+    <br>
+    <p>Téle:</p>
+    <input class="in1" type="tel" placeholder="06 00 00 00 00" required>
+    <br>
+    <p>Objet de la demande:</p>
+    <select>
+        <option>Renseignement sur un produit</option>
+        <option>Suivi de commande</option>
+        <option>Conseil personnalisé</option>
+        <option>Réclamation</option>
+        <option>Autre</option>
+    </select>
+    <br>
+    <p>Vous êtes:</p>
+    <input class="radio" type="radio" name="type">Client</input>
+    <input class="radio" type="radio" name="type">Visiteur</input>
+    <br>
+    <p>Message:</p>
+    <textarea placeholder="écrire votre message ici!"></textarea>
+    <br><br>
+    <input class="radio" type="checkbox">J’accepte d’être recontacté(e)</input>
+    <br><br>
+    <button class="b1" type="submit" >Envoyer</button>
+    <button class="b2" type="reset" >Réinitialiser</button>
+    <br><br>
+    </form>
+
+
+</div>
+<br><br>
+
+<footer>
+        <p>© 2026 – HAMZA KHARKHOUCH – Groupe DEV101 – Boutique AL AMAL</p>
+    </footer>
+</body>
+</html>
