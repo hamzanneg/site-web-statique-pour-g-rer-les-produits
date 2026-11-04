@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: lightgray;
+            margin:0;
+             background-image: url(https://imgs.search.brave.com/bOBtNreQfLTl2__7XSYzRNAgpwcwlaXSDr4ZEbnom08/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvdGh1bWJu/YWlsL3BsYWluLWxp/Z2h0LWJsdWUtYmFj/a2dyb3VuZC0yNTYw/LXgtMTYwMC11cW0y/ZDdhcjVvZ3QzNmQ3/LmpwZw);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: 'lato',sans-serif;
+
+        }
+        .images {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            height: 20%;
+            font-family: Arial, Helvetica, sans-serif;
+            position: relative;
+            right: 5px;
+        }
+        .images img {
+            height: 400px;
+            width: 350px;
+            border-radius: 27px 39px;
+
+
+            
+        }
+        .images .type1 {
+            border: solid;
+            border-radius: 29px 41px;
+            width: 350px;
+            box-shadow: 5px 5px 5px ;
+        }
+        .images .type2 {
+            border: solid;
+            border-radius: 29px 41px;
+            width: 350px;
+            box-shadow: 5px 5px 5px ;
+
+        }
+        .images .type3 {
+            border: solid;
+            border-radius: 29px 41px;
+            width: 350px;
+            box-shadow: 5px 5px 5px ;
+
+        }
+        .images p {
+            padding: 10px;
+        }
+        .button a {
+            background-color: black;
+        }
+        .tab {
+            display:flex;
+            gap: 40px;
+            align-items: flex-start;
+            font-size: 40px;
+            position: relative;
+            justify-content: center;
+            
+
+        }
+        .T1 {
+            position: relative;
+            right: 10%;
+            color: #163A5F;
+        }
+        .p {
+            justify-content: center;
+
+        }
+        
+        
+        footer {
+            text-align: center;
+            background-color:#163A5F;
+            padding: 10px;
+            max-width: 100%;
+            font-family:'lato'sans-serif;
+            color: white;
+        }
+        nav {
+            padding-right: 30px;
+            top: 10px;
+        }
+        header{
+            display:flex;
+            justify-content: flex-end;
+            gap: 20px;
+            top:10px;
+            background-color: #EAF3FB;
+            padding: 20px 0 10px 0;
+            position: fixed;
+            top:0;
+            left:0;
+            width: 100%;
+            z-index: 1000;
+            height: 32px;
+            border: lightgray 2px solid;
+            box-shadow: 0 0 5px 0;
+        }
+        header label {
+            position:relative;
+            right: 65%;
+            font-family: 'Yellowtail',cursive;
+            font-style: italic;
+            
+        }
+        header a {
+
+           padding: 10px;
+           border-radius: 7px 10px;
+           text-decoration: none;
+           border: #163A5F solid 2px;
+
+            
+        }
+        header a:hover {
+            background-color: #163A5F;
+            color: white;
+            border: solid #163A5F;
+            font-size: large;
+        }
+        .button {
+            display: flex;
+            justify-content: center;
+            border:#163A5F solid 2px;
+            background-color: #163A5F;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            padding: 20px;
+            font-size: large;
+            width: 200px;   
+            margin: 0 auto;   
+        }
+        .button:hover {
+            background-color: white;
+            color:#163A5F;
+        }
+        .imgg {
+            -webkit-mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+            mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+        }
+        
+    </style>
+</head>
+<body>
+
+<header>
+    <label>Boutique AL AMAL</label>
+    <nav>
+        <a href="index.html">Acctueil</a>
+        <a href="produits.html">Produits</a>
+        <a href="contact.html">Contact</a>        
+    </nav>
+
+
+</header>
+<br><br>
+<br><br>
+<h1 style="text-align: center;"><i>Boutique AL AMAL</i></h1>
+    <h2 style="text-align: center;">Bienvenue chez <i>Boutique AL AMAL</i></h2>
+    <br>
+<img class="imgg" src="images/Boutique de beauté AL AMAL.png" alt="Boutique AL AMAL" style="display: block; margin: 0 auto; width: 50%; height: auto;">
+<br>
+ <p style="text-align: center; font-size: 20px; margin: 20px">
+        Découvrez <span>Boutique Al Amal</span>,votre destination dédiée à la beauté et aux soins de la peau. Nous vous proposons une sélection de produits cosmétiques pour prendre soin de votre peau, révéler votre beauté naturelle et vous sentir belle et confiante chaque jour. Découvrez notre collection et profitez d'une agréable expérience d'achat !
+    </p>
+    <br>
+    <div class="tab">
+        
+    <ul class="tab1">
+        <h4 class="T1">> pourquoi boutique AL AMAL?</h4>
+        <li>Produits de beauté de qualité.</li>
+        <li>Prix adaptés à votre budget.</li>
+        <li>Large choix de produits.</li>
+        <li>Expérience d'achat agréable.</li>
+    </ul>
+    <br>
+    
+    <ol class="tab2">
+        <h4 class="T1">> Comment commander?</h4>
+        <li>Choisir une catégorie.</li>
+        <li>Parcourir les produits.</li>
+        <li>Sélectionner un produit.</li>
+        <li>Ajouter au panier.</li>
+    </ol>
+    </div>
+    <br><br>
+    <div class="images">
+        <div class="type1">
+        <img src="https://imgs.search.brave.com/GNh5auXm12NIzDx07SXw7oGJsTRQV97PKM9J7-DuNsM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bnVvb2JveC5jb20v/Y2RuL3Nob3AvcHJv/ZHVjdHMvZ2VsZWUt/bmV0dG95YW50ZS1w/dXJpZmlhbnRlLWNl/bnRpZm9saWFfMzUw/eC5qcGc_dj0xNjE0/MTYwMjc3">
+        <p><strong>Nom:</strong> Gel Nettoyant Aloe Douceur</p>
+        <p><strong>Descreption:</strong> Un gel moussant sans savon qui nettoie sans dessécher.</p>
+        <p><strong>Prix:</strong> <del>109 DH</del>   89 DH</p>
+        </div>
+        <div class="type2">
+        <img src="https://imgs.search.brave.com/0ugfJelIJI4WdCvfthXA8O7rQ9T0HX21io3tkXKDDy8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZW5kcm8tY29zbWV0/aXF1ZXMuY29tL2Nk/bi9zaG9wL2ZpbGVz/L3NlcnVtLXB1cmlm/aWFudC1lbmRyby1j/b3NtZXRpcXVlcy1z/ZXJ1bXMtdmlzYWdl/LTcxMDQ3NjMud2Vi/cD92PTE3NzAwNDYx/NTUmd2lkdGg9MjA0/OA">
+        <br>
+        <p><strong>Nom:</strong> Sérum Vitamine C Éclat</p>
+        <p><strong>Descreption:</strong> Un concentré antioxydant pour un teint plus lumineux.</p>
+        <p><strong>Prix:</strong> <del> 169 DH </del> 149 DH</p>
+        </div>
+        <div class="type3">
+        <img src="https://imgs.search.brave.com/IHbltGlBlFTdOevhzIyLZLSEWkuvdBiaNTg6QP_HHuU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jYWNo/ZS5jb3Ntb3BvbGl0/YW4uZnIvZGF0YS9w/aG90by93NjgwX2Mx/Ny82cy9sYWJvcmF0/b2lyZXMtZGUtYmlh/cnJpdHouanBn">
+        <br>
+        <p><strong>Nom:</strong> Crème Solaire SPF 50+ Invisible</p>
+        <p><strong>Descreption:</strong> Un fluide léger, sans traces blanches, pour tous les jours.</p>
+        <p><strong>Prix:</strong> 129 DH</p>
+        </div>
+    </div>
+    <br><br>
+    <br><br>
+    <a class="button" href="produits.html" target="_blank">Découvrir nos produits</a>
+    <br>
+    <p style="text-align: center;">Site de référence : <a href="https://minialik.ma/" target="_blank">minialik.ma</a> (s’ouvre dans un nouvel onglet)</p>
+    <br>
+    <footer>
+        <p>© 2026 – HAMZA KHARKHOUCH – Groupe DEV101 – Boutique AL AMAL </p>
+    </footer>
+</body>
+</html>
